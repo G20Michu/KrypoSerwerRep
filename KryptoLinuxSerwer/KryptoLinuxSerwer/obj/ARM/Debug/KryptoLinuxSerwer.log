@@ -1,0 +1,52 @@
+﻿  Weryfikowanie źródeł
+  Zdalne kopiowanie źródeł do lokalizacji „raspberrypi”
+  Weryfikowanie architektury
+  Weryfikowanie architektury
+  Rozpoczynanie kompilacji zdalnej
+  Kompilowanie źródeł:
+  main.cpp
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(46,37): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(46,37): warning :    46 |     server_address.sin_port = htons(Port);
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(46,37): warning :       |                                     ^~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,30): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,30): warning :    70 |     char Rmessange = ReadPort(Port);
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,30): warning :       |                      ~~~~~~~~^~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,10): warning : unused variable ‘Rmessange’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,10): warning :    70 |     char Rmessange = ReadPort(Port);
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(70,10): warning :       |          ^~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(105,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(105,27): warning :   105 |         for (int i = 0; i <= (result.size() + 1); i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(105,27): warning :       |                         ~~^~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(166,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(166,27): warning :   166 |         for (int i = 0; i <= AktualnyKurs.size() - 1; i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(166,27): warning :       |                         ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(142,17): warning : unused variable ‘end’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(142,17): warning :   142 |         clock_t end = clock();
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(142,17): warning :       |                 ^~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(201,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(201,31): warning :   201 |             for (int i = 0; i <= AktywnoscWalut.size(); i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(201,31): warning :       |                             ~~^~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(227,28): warning : unused variable ‘numerlini2’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(227,28): warning :   227 |         int numerlini = 0, numerlini2 = 0;
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(227,28): warning :       |                            ^~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(386,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(386,35): warning :   386 |                 for (int i = 0; i < NazwyWalut.size(); i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(386,35): warning :       |                                 ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(427,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(427,35): warning :   427 |                 for (int i = 0; i < NazwyWalut.size(); i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(427,35): warning :       |                                 ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(462,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(462,35): warning :   462 |                 for (int i = 0; i < NazwyWalut.size(); i++)
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(462,35): warning :       |                                 ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(500,9): warning : unused variable ‘SendPort’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(500,9): warning :   500 |     int SendPort = 12345;
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(500,9): warning :       |         ^~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(501,9): warning : unused variable ‘SendBufferSize’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(501,9): warning :   501 |     int SendBufferSize;
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(501,9): warning :       |         ^~~~~~~~~~~~~~
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(502,9): warning : unused variable ‘targetip’ [-Wunused-variable]
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(502,9): warning :   502 |     int targetip;
+C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\main.cpp(502,9): warning :       |         ^~~~~~~~
+  Łączenie obiektów
+  KryptoLinuxSerwer.vcxproj -> C:\Users\Michał\source\repos\KrypoSerwerRep\KryptoLinuxSerwer\KryptoLinuxSerwer\bin\ARM\Debug\KryptoLinuxSerwer.out
+  Wywoływanie zadania „gpio export 17 out”. Katalog roboczy: „/home/pi/projects/KryptoLinuxSerwer/”

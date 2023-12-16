@@ -1,1 +1,0 @@
-g++ -o "/home/pi/projects/KryptoServerRaspi/bin/ARM/Debug/KryptoServerRaspi.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/KryptoServerRaspi/obj/ARM/Debug/main.o -lwiringPi -lpthread
