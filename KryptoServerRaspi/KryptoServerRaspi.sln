@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KryptoServerRaspi", "KryptoServerRaspi\KryptoServerRaspi.vcxproj", "{06551627-A0DE-4027-BCB2-84A65E3E98B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM.Build.0 = Debug|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM64.Build.0 = Debug|ARM64
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM.ActiveCfg = Release|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM.Build.0 = Release|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM.Deploy.0 = Release|ARM
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM64.ActiveCfg = Release|ARM64
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM64.Build.0 = Release|ARM64
+		{06551627-A0DE-4027-BCB2-84A65E3E98B9}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F71965BB-6EA3-4F01-995F-53AB394C368D}
+	EndGlobalSection
+EndGlobal
